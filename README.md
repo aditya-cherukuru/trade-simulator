@@ -68,9 +68,14 @@ trade_simulator/
 │   └── websocket_client.py # WebSocket client implementation
 ├── utils/
 │   ├── __init__.py
-│   └── logger.py        # Logging utilities
+│   ├── logger.py        # Logging utilities
+│   └── performance_monitor.py  # Performance monitoring utilities
+├── tests/
+│   ├── __init__.py
+│   └── test_trading_models.py  # Unit tests for trading models
 └── README.md            # Project documentation
 ```
+
 
 ## Model Implementation Details
 
